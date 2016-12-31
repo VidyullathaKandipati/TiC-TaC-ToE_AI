@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Arima+Madurai');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Kumar+One|Lobster');
+// $font: 'Arima Madurai', cursive;
+// $font: 'Kumar One', cursive;
+$font: 'Lobster', cursive;
+$board-font: 'Indie Flower', cursive;
+$border: 2px solid #3E2F38;
+$h1Padding: 50px;
+// $bgColor: #C9C1C6;
+$bgColor: #F7E9F1;
+$winColor: #F8C2E1;
+$fntColor: #3E2F38;
+
+body{
+  font-family: $font;
+  background-color: $bgColor;
+  color: $fntColor;
+  text-align: center;
+  font-size: 40pt;
+}
+h1{
+  padding: $h1Padding;
+  font-size: 60pt;
+}
+.container{
+  @extend body;
+  max-width: 960px;
+  margin: 0 auto;
+}
+.board{
+  @extend .container;
+  max-width: 80%;
+  padding-left: $h1Padding;
+}
+.row{
+  @extend .container;
+  max-width: 80%;
+}
+.col-md-3{
+  @extend .container;
+  width: 65px;
+  height: 90px;
+  overflow: hidden;
+  line-height: 100px;
+  font-family: $board-font;
+}
+.col-md-4{
+  @extend .container;
+  margin-bottom: 40px;
+  font-size: 25pt;
+}
+.top-middle{
+  border-bottom: $border;
+}
+.top-left{
+  @extend .top-middle;
+  border-right: $border;
+}
+.top-right{
+  @extend .top-middle;
+  border-left: $border;
+}
+.bottom-middle{
+  border-top: $border;
+}
+.bottom-left{
+  @extend .bottom-middle;
+  border-right: $border;
+}
+.bottom-right{
+  @extend .bottom-middle;
+  border-left: $border;
+}
+.left{
+  border-right: $border;
+}
+.right{
+  border-left: $border;
+}
+button{
+  background-color: $fntColor;
+  color: $bgColor;
+  border-radius: 10px;
+  border: $border;
+  font-size: 20px;
+}
+button:hover{
+  background-color: $bgColor;
+  color: $fntColor;
+}
+button:focus{
+  outline: none;
+}
+.scores{
+  padding: 40px;
+}
+.win{
+  background-color: $winColor;
+  // text-decoration: line-through;
+}

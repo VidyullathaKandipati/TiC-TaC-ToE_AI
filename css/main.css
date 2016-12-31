@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css?family=Arima+Madurai");
+@import url("https://fonts.googleapis.com/css?family=Indie+Flower|Kumar+One|Lobster");
+body, .container, .board, .row, .col-md-3, .col-md-4 {
+  font-family: "Lobster", cursive;
+  background-color: #F7E9F1;
+  color: #3E2F38;
+  text-align: center;
+  font-size: 40pt; }
+
+h1 {
+  padding: 50px;
+  font-size: 60pt; }
+
+.container, .board, .row, .col-md-3, .col-md-4 {
+  max-width: 960px;
+  margin: 0 auto; }
+
+.board {
+  max-width: 80%;
+  padding-left: 50px; }
+
+.row {
+  max-width: 80%; }
+
+.col-md-3 {
+  width: 65px;
+  height: 90px;
+  overflow: hidden;
+  line-height: 100px;
+  font-family: "Indie Flower", cursive; }
+
+.col-md-4 {
+  margin-bottom: 40px;
+  font-size: 25pt; }
+
+.top-middle, .top-left, .top-right {
+  border-bottom: 2px solid #3E2F38; }
+
+.top-left {
+  border-right: 2px solid #3E2F38; }
+
+.top-right {
+  border-left: 2px solid #3E2F38; }
+
+.bottom-middle, .bottom-left, .bottom-right {
+  border-top: 2px solid #3E2F38; }
+
+.bottom-left {
+  border-right: 2px solid #3E2F38; }
+
+.bottom-right {
+  border-left: 2px solid #3E2F38; }
+
+.left {
+  border-right: 2px solid #3E2F38; }
+
+.right {
+  border-left: 2px solid #3E2F38; }
+
+button {
+  background-color: #3E2F38;
+  color: #F7E9F1;
+  border-radius: 10px;
+  border: 2px solid #3E2F38;
+  font-size: 20px; }
+
+button:hover {
+  background-color: #F7E9F1;
+  color: #3E2F38; }
+
+button:focus {
+  outline: none; }
+
+.scores {
+  padding: 40px; }
+
+.win {
+  background-color: #F8C2E1; }
+
+/*# sourceMappingURL=main.css.map */

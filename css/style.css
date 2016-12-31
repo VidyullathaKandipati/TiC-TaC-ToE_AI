@@ -1,0 +1,59 @@
+body{
+  background-color: pink;
+  color: purple;
+  text-align: center;
+}
+h1{
+  font-size: 40pt;
+}
+.container{
+  background-color: #fff;
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: center;
+}
+.board{
+  max-width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+.row{
+  max-width: 80%;
+  margin: 0 auto;
+}
+.col-md-3{
+  max-width: 100px;
+  /*margin: 0 auto;*/
+  /*text-align: center;*/
+  overflow: hidden;
+  height: 100px;
+  line-height: 100px;
+  font-size: 40pt;
+  color: black;
+}
+.top-left{
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+}
+.top-middle{
+  border-bottom: 2px solid black;
+}
+.top-right{
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
+}
+.bottom-left{
+  border-top: 2px solid black;
+  border-right: 2px solid black;
+}
+.bottom-middle{
+  border-top: 2px solid black;
+}
+.bottom-right{
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+}
+
+div{
+  /*border: 1px solid black;*/
+}

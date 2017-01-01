@@ -29,19 +29,19 @@ h1{
 }
 .board{
   @extend .container;
-  max-width: 80%;
+  max-width: 100%;
   padding-left: $h1Padding;
 }
 .row{
   @extend .container;
-  max-width: 80%;
+  max-width: 100%;
 }
 .col-md-3{
   @extend .container;
-  width: 65px;
-  height: 90px;
+  // width: 65px;
+  height: 90px;;
   overflow: hidden;
-  line-height: 100px;
+  // line-height: 100px;
   font-family: $board-font;
 }
 .col-md-4{
@@ -98,3 +98,4 @@ button:focus{
   background-color: $winColor;
   // text-decoration: line-through;
 }
+// @media only screen

@@ -7,7 +7,7 @@ Access the application [here](https://vidyullathakandipati.github.io/TiC-TaC-ToE
 ---
 I was supposed to build a tic tac toe game for my project0 as part of my course,
 and I built a multiplayer one [here](https://github.com/VidyullathaKandipati/tic-tac-toe)
-I wanted to improvise this one in term of code refactoring and also wanted to include AI.
+I wanted to improvise this one in terms of code refactoring and also wanted to include AI.
 
 ## Features
 ---
@@ -33,5 +33,5 @@ If 'Reset Scores' is clicked, it will reset all the scores to 0 and will start a
 
 ## Future Release
 ---
-I plan to add some sounds and have sound on / off facility
-I also plan to make the game more responsive.
+* I plan to add some sounds and have mute on / off facility
+* I also plan to make the application more responsive.
